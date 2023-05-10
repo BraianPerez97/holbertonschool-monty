@@ -1,6 +1,8 @@
 #ifndef _MONTY_H
 #define _MONtY_H
 
+/* Libraries */
+
 #include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -38,4 +40,6 @@ typedef struct instruction_s
         char *opcode;
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
+/* Function Prototypes */
+/* Opcodes */
 #endif
